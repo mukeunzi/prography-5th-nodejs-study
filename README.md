@@ -32,9 +32,9 @@ express 로 정돈된 코드로 작성하기!
 ##### 스터디 진행 슬라이드
 아래의 구조는 MVC 패턴을 가진 서버의 구조이다. 내부 구조 중 필요한 구조를 만들어서 사용한다.
 server-structure
-![server-structure-2](./assets/server-structure/2.jpg)
-![server-structure-4](./assets/server-structure/4.jpg)
-![server-structure-5](./assets/server-structure/5.jpg)
+![server-structure-2](./assets/server-structure/2.jpeg)
+![server-structure-4](./assets/server-structure/4.jpeg)
+![server-structure-5](./assets/server-structure/5.jpeg)
   
 
 ##### 내부 주요 디렉토리 정리(브랜치 feature/todo 를 확인!)
