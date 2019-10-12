@@ -1,6 +1,5 @@
 const express = require('express');
 const routes = require('./routes');
-const bodyParser = require('body-parser');
 app = express();
 
 app.use(
@@ -8,7 +7,8 @@ app.use(
 		extended: false
 	})
 );
-app.use(bodyParser.json());
+app.use(express.json());
+
 app.use(routes);
 
 module.exports = app;
