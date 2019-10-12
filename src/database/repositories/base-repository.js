@@ -14,19 +14,19 @@ class BaseRepository {
 		return this.models.value();
 	}
 
-	findById(id) {
-		return this.models.find({ id }).value();
+	findById(_id) {
+		return this.models.find({ _id }).value();
 	}
 
-	update(id, data) {
+	update(_id, data) {
 		return this.models
-			.find({ id })
+			.find({ _id })
 			.assign(data)
 			.write();
 	}
 
-	delete(id) {
-		return this.models.remove({ id }).write();
+	delete(_id) {
+		return this.models.remove({ _id }).write();
 	}
 }
 
